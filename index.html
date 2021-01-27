@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div id="tejado" class="tejado">
+        tejado
+    </div>
+    <div class="flex h-screen justify-center items-center">
+        <div id="base" class="h-64 w-64 bg-black border-black">
+            base
+        </div>
+    </div>
+    <style>
+        .tejado {
+            width: 0; 
+            height: 0; 
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+  
+            border-bottom: 50px solid black;
+        }
+    </style>
+</body>
+</html>
